@@ -1,0 +1,2 @@
+# paymentTerminal
+simple python project
