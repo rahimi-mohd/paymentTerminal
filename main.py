@@ -72,7 +72,7 @@ while True:
             print("Enter admin username and PIN to proceed.")
             adminUsername = input("Username: \n")
             adminPIN = int(input("PIN: \n"))
-            if adminUsername != admin["username"] and adminPIN != admin['pin']:
+            if adminUsername != admin["username"] or adminPIN != admin['pin']:
                 print("Wrong username or PIN. Cancelling settlement.")
             else:
                 with open ("settelement.txt", "a") as file:
